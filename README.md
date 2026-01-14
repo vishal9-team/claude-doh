@@ -4,11 +4,11 @@ Minimal emacs support for claude (things that make even Homer go 'DOH!') - YMMV
 
 ![Demo](assets/simpson-doh.gif)
 
-# Requirements
+## Requirements
 
 Install *vterm* https://github.com/akermu/emacs-libvterm and optionally *Ivy* https://github.com/abo-abo/swiper for better completion.
   
-# Setup
+## Setup
 1. Save and load the file
 
 (load-file "/full/path/to/claude-doh.el")
@@ -18,7 +18,7 @@ Install *vterm* https://github.com/akermu/emacs-libvterm and optionally *Ivy* ht
 (setq claude-launch-command
       "cd %s && source ~/.bashrc && conda activate llm && claude")
 
-# Commands
+## Commands
 | Command | Keybinding | Description |
 |---------|------------|-------------|
 | `claude-vterm` | `C-c p c` | Start a new Claude session in vterm |
